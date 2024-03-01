@@ -1,0 +1,94 @@
+body {
+    background-image: url(imagem/Escolinha\ do\ Professor\ Raimundo.png);
+    /* Muda a imagem do fundo  */
+    background-repeat: no-repeat; 
+    /* Não repete a imagem */
+    background-size: cover;
+    /* Tamanho da imagem */
+
+}
+
+.container {
+    background-color: rgba(1, 3, 14, 0.274);
+    /* Altera a cor da Div */
+    width: 380px;
+    height: 370px;
+    /* Largura e altura da div */
+    color: white;
+    /* cor da letra dentro da div */
+    margin: 190px auto;
+    /* Margem da página */
+    text-align: center;
+    /* alinhamento do texto em questão */
+    padding: 30px;
+    /* Tag padding, usada para dar respiro nas informações dentro da caixa */
+    font-family: 'Times New Roman', Times, serif;
+    /* Tipo de fonte */
+    box-shadow: 7px 14px 23px rgba(8, 1, 1, 0.589);
+    /* Sombra da caixa, primeiro valor é usado para a sombra horizontal, segundo valor para a sombra vertical e o último valor é usado para desfocar, importante lembrar que se negativar a sombra vai para a esquerda */
+
+}
+
+.linha {
+    width: 150px;
+    /* largura da linha */
+    margin-bottom: 50px;
+    /* Margem abaixo da linha */
+}
+
+.login {
+    background-color: rgba(128, 128, 128, 0.801);
+    /* cor de fundo do botão */
+    width: 230px;
+    height: 25px;
+    /* Altura e largura do botão */
+    color: white;
+    /* Cor da letra do botão */
+    font-size: 12px;
+    /* Tamanho da letra */
+}
+.login:hover {
+    background-color: rgba(241, 236, 239, 0.479);
+    /* Muda a cor de fundo ao passar o mouse */
+    color: black;
+    /* Muda a cor da letra ao passar o mouse */
+    transition: 0.5s;
+    /* Tempo da transição */
+    cursor: pointer;
+    /* Muda o cursor para a mãozinha */
+
+}
+.content {
+    display: flex;
+    /* Deixar os itens flexíveis */
+    align-items: center;
+    /* Alinhamento dos itens */
+    justify-content: center;
+    /* Justifica os itens na horizontal */
+}
+.content button {
+    width: 100px;
+    height: 23px;
+    /* Altura e largura do botão */
+    border-radius: 7px;
+    /* Arredondar a borda do botão */
+    font-size: 10px;
+    /* Tamanho da letra dentro do botão */
+    color: white;
+    /* Cor da letra dentro do botão */
+    background-color: gray;
+    /* Cor de fundo do botão */
+    margin: 20px;
+    /* Altera todas as margens do botão */
+
+}
+.content button:hover {
+    background-color: rgba(241, 236, 239, 0.479);
+    /* Ao passar o mouse, altera a cor de fundo do botão */
+    color: black;
+    /* Ao passar o mouse, altera a cor da letra dentro do botão */
+    transition: 0.5s;
+    /* Tempo da transição  */
+    cursor: pointer;
+    /* Muda o cursor para a mãozinha */
+}
