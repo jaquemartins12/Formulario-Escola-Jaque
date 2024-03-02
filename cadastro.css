@@ -1,0 +1,62 @@
+body {
+    background-image: url(imagem/Escolinha\ do\ Professor\ Raimundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cadastrar {
+    background-color: rgba(0, 0, 0, 0.616);
+    width: 380px;
+    height: 370px;
+    color: white;
+    margin: 190px auto;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 7px 14px 23px black;
+   
+}
+
+.linha {
+    background-color: rgba(128, 128, 128, 0.801);
+    width: 230px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.enviar {
+margin-top: 20px;
+
+
+}
+
+.enviar input {
+width: 150px;
+height: 25px;
+border-radius: 12px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+.enviar input:hover {
+ width: 200px;
+ height: 30px;
+background-color: gray;
+color: white;
+transition: 0.5s;
+font-family: 'Times New Roman', Times, serif;
+border-radius: 12px;
+cursor: pointer;
+
+}
+.ddd {
+    font-family: 'Times New Roman', Times, serif;
+    height: 23px;
+    border-radius: 12px;
+}
+
+form input { 
+    border-radius: 12px;
+    width: 200px;
+    height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -80,7 +80,7 @@ body {
     /* Cor de fundo do botão */
     margin: 20px;
     /* Altera todas as margens do botão */
-
+   
 }
 .content button:hover {
     background-color: rgba(241, 236, 239, 0.479);
